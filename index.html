@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="utf-8" />
+	<title>JavaScript Snippets</title>
+	<link rel="stylesheet" type="text/css" href="/public/css/render.css" />
+</head>
+<body>
+	<div class="doc-wrap">
+	<!-- doc-wrap begin -->
+		
+		<h1>
+			JavaScript Snippets
+		</h1>
+
+		<ul>
+			<li>
+				<a href="public/script/modules/validateVal.js">Validating variables and object properties</a>
+			</li>
+			<li>
+				<a href="public/script/modules/calc.js">Defining a library, noConflict</a>
+			</li>
+			<li>
+				<a href="public/script/modules/links.js">Select/target external links in a document</a>
+			</li>
+		</ul>
+		<!-- script begin -->
+		<script src="/public/script/lib/requirejs/require.js"></script>
+		<script>
+			require( [ "/public/script/config/requireJSConfig.js" ], function(  ) {
+				
+			})
+		</script>
+		<!-- script end -->
+
+	<!-- doc-wrap end -->
+	</div>	
+</body>
+</html>
